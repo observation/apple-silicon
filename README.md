@@ -11,16 +11,14 @@ This is how I got things to work on Apple Silicon.
 1. [gevent](gevent.md)
 1. [redis](redis.md)
 
+## Make this better
+
+Feel free to suggest improvements and extra tips using pull requests.
+
 ## Credits
 
 Thanks to everybody who shared tips and code!
 
-### A wrapper script for brew
+If I used a tip I found online, I credited with a link in the article.
 
-https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/
-
-This is my favorite solution for `brew`, and it also gave me the idea to fix `pyenv`. I added some improvements to make `brew` also play nice with Postgres.app.
-
-### Other fixes
-
-I added credits where I used a fix I found online.
+A special mention here for [A wrapper script for brew](https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/). This is my favorite solution for `brew`, and it also gave me the idea to fix `pyenv`. I added some improvements to make `brew` also play nice with Postgres.app.

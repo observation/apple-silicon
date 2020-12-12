@@ -19,6 +19,8 @@ Thanks to everybody who shared tips and code!
 
 https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/
 
-### A fix for gevent
+This is my favorite solution for `brew`, and it also gave me the idea to fix `pyenv`. I added some improvements to make `brew` also play nice with Postgres.app.
 
-https://github.com/gevent/gevent/issues/791#issuecomment-218343747
+### Other fixes
+
+I added credits where I used a fix I found online.

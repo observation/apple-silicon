@@ -2,7 +2,13 @@
 
 ## Prerequisites
 
-You should not already have homebrew installed. Uninstall any earlier attempts. Also check your `~/.zshrc` for any aliases or other tricks.
+You should not already have homebrew installed. If you do:
+
+1. Make sure you have a backup.
+2. Uninstall any homebrew you have installed. Use the homebrew uninstaller, and delete directories.
+3. Also check your `~/.zshrc` for any `brew` aliases or other tricks.
+
+You do not need a Rosetta Terminal.
 
 ## Instructions
 

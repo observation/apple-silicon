@@ -1,0 +1,3 @@
+#!/bin/sh
+# assumes default location of pyenv in `/usr/local/bin/pyenv`
+arch -x86_64 /usr/local/bin/pyenv "$@"

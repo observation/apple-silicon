@@ -1,0 +1,9 @@
+#!/bin/sh
+# Remove Postgres.app config
+BREWPATH="${PATH//:\/Applications\/Postgres.app\/Contents\/Versions\/latest\/bin/}"
+# Check if pyenv is available, if so remove shims from path
+if which pyenv >/dev/null 2>&1; then
+  BREWPATH="${BREWPATH//$(pyenv root)\/shims:/}"
+fi
+# Assumes default location of brew in `/usr/local/bin/brew`
+arch -x86_64 /usr/bin/env PATH="$BREWPATH" /usr/local/bin/brew "$@"

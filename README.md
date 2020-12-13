@@ -11,6 +11,10 @@ This is how I got things to work on Apple Silicon.
 1. [gevent](gevent.md)
 1. [redis](redis.md)
 
+## Other resources on this subject
+
+See [Links](links.md).
+
 ## Make this better
 
 Feel free to suggest improvements and extra tips using pull requests.

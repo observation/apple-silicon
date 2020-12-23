@@ -1,4 +1,4 @@
-# Redis
+# PostgreSQL and PostGIS
 
 We will install PostgreSQL with PostGIS using Postgres.app.
 

@@ -23,6 +23,6 @@ Feel free to suggest improvements and extra tips using pull requests.
 
 Thanks to everybody who shared tips and code!
 
-If I used a tip I found online, I credited with a link in the article.
+If we used a tip that was found online, the source is credited with a link in the article.
 
-A special mention here for [A wrapper script for brew](https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/). This is my favorite solution for `brew`, and it also gave me the idea to fix `pyenv`. I added some improvements to make `brew` also play nice with Postgres.app.
+A special mention here for [A wrapper script for brew](https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/). This is a great solution for `brew`, and it also gave birth to the idea to fix `pyenv`. Improvements to make `brew` also play nice with Postgres.app were added.

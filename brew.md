@@ -46,7 +46,7 @@ arch -x86_64 /usr/local/bin/brew "$@"
 Make this file executable
 
 ```
-chmoud gu+rx ~/bin/brew
+chmod gu+rx ~/bin/brew
 ```
 
 Now every time we call the `brew` command, this script will prefix it with the `arch -x86_64` command to make sure it runs in x86 mode.

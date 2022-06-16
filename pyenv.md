@@ -18,7 +18,7 @@ You can also add `virtualenv` with `brew install pyenv-virtualenv`.
 
 Because `pyenv` is a series of scripts, we want to make sure that these scripts are always run in emulation mode.
 
-Create a file `~\bin\brew` with the following content:
+Create a file `~/bin/pyenv` with the following content:
 
 ```
 #!/bin/sh
@@ -29,7 +29,7 @@ arch -x86_64 /usr/local/bin/pyenv "$@"
 Make this file executable:
 
 ```
-chmoud gu+rx ~/bin/pyenv
+chmod gu+rx ~/bin/pyenv
 ```
 
 Now when we call pyenv, it will always be in x86 mode.

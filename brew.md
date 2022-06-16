@@ -58,6 +58,6 @@ brew doctor
 Your system is ready to brew.
 ```
 
-If `brew doctor` says anything else, be sure to follow up. A common issue is fixing the rigts for several folders.
+If `brew doctor` says anything else, be sure to follow up. A common issue is fixing the permissions for several folders.
 
 We're done, we now have Homebrew installed in x86 mode.

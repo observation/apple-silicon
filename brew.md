@@ -35,7 +35,7 @@ Notice that personal scripts in the `bin` folder in my home directory have prior
 
 Now I want to make sure that brew is always called in x86 mode. You can do this by forcing the entire Terminal app, or by making an alias, but I will take a different approach and use a small script. This script will also help us to make `brew` place nice with pyenv.
 
-Create a file `~\bin\brew` with the following content:
+Create a file `~/bin/brew` with the following content:
 
 ```
 #!/bin/sh

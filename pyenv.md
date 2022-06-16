@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-You must have `brew` installed according to the instructions in this project.
+You must have [`brew` installed according to the instructions in this project](brew.md).
 
 ## Instructions
 
